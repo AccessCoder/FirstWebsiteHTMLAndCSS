@@ -1,0 +1,43 @@
+body{
+    background-color: #121212;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+header h3{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom-color: blueviolet;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    border: thin solid blueviolet;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: stretch;
+    width: 40rem;
+}
+
+button{
+    background-color: #121212;
+    color: white;
+    width: 7rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+
+

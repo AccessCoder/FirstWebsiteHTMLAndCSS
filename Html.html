@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Die erste Website</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+    <h1>MyBlog</h1>
+</div>
+<div class="content">
+    <button onclick="testFunktion()">
+        About me
+        <script>
+            function testFunktion(){
+                open("https://www.youtube.com/watch?v=iik25wqIuFo")
+            }
+        </script>
+    </button>
+    <button onclick="futureButton()">
+        For Stefan
+        <script>
+            function futureButton(){
+                open("https://dribbble.com/shots/2309647-Unicorn/attachments/9237531?mode=media")
+            }
+        </script>
+    </button>
+    <button onclick="schwanzButton()">
+        Yo Mamma!
+        <script>
+            function schwanzButton(){
+                open("https://www.youtube.com/watch?v=ZUZ2XWaGI74")
+            }
+        </script>
+    </button>
+    <article>
+        <section>
+            <header><h3>The hollow journey</h3></header>
+            <p>This is a <strong>very grumpy </strong>Test</p>
+            <p> What I´ve seen so far </p>
+            <p> That was very nice, try it yourself</p>
+            <div class="hollowImage">
+                <img alt="You have to try" src="hollow.jpg"/>
+            </div>
+            <p> An amazing Journey</p>
+        </section>
+    </article>
+    <article>
+        <section>
+            <h3> The man under the Bridge </h3>
+            <p> How to be a man of culture?</p>
+            <p> Follow these simple tips!</p>
+            <p> Just be a man of culture, it´s that simple!</p>
+            <p> Need a motivational image? Ask no further!</p>
+            <div class="doItImage">
+                <img src="justDoIt.jpg">
+            </div>
+        </section>
+    </article>
+</div>
+</body>
+</html>
